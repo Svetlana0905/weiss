@@ -203,7 +203,7 @@ h1 {
 
 .orange__link span {
   padding: 0px 30px 0px 0px;
-  background: url("../img/icon/white_arrow.png") right no-repeat;
+  background: url("../../img/icon/white_arrow.png") right no-repeat;
 }
 
 .header__row {
@@ -349,7 +349,7 @@ h1 {
 
 .header__link span {
   padding: 0px 30px 0px 0px;
-  background: url("../img/icon/mail_outline_24px.png") right no-repeat;
+  background: url("../../img/icon/mail_outline_24px.png") right no-repeat;
 }
 
 .header__burger {
@@ -625,7 +625,7 @@ h1 {
 
 .card__link span {
   padding: 0px 30px 0px 0px;
-  background: url("../img/icon/orange_arrow.png") right no-repeat;
+  background: url("../../img/icon/orange_arrow.png") right no-repeat;
 }
 
 @media (max-width: 714px) {
@@ -660,7 +660,7 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: url(../img/Vector.png) 0 0 no-repeat;
+  background: url(../../img/Vector.png) 0 0 no-repeat;
 }
 
 .diplom__caption {
@@ -727,7 +727,7 @@ hr {
 
 .diplom-link span {
   padding: 0 30px 0 0;
-  background: url("../img/icon/white_arrow.png") right no-repeat;
+  background: url("../../img/icon/white_arrow.png") right no-repeat;
 }
 
 @media (max-width: 714px) {
