@@ -203,7 +203,7 @@ h1 {
 
 .orange__link span {
   padding: 0px 30px 0px 0px;
-  background: url("../img/icon/white_arrow.png") right no-repeat;
+  background: url("../../img/icon/white_arrow.png") right no-repeat;
 }
 
 .header__row {
@@ -349,7 +349,7 @@ h1 {
 
 .header__link span {
   padding: 0px 30px 0px 0px;
-  background: url("../img/icon/mail_outline_24px.png") right no-repeat;
+  background: url("../../img/icon/mail_outline_24px.png") right no-repeat;
 }
 
 .header__burger {
@@ -359,6 +359,10 @@ h1 {
 @media (max-width: 768px) {
   body.lock {
     overflow: hidden;
+  }
+  .header__logo-img {
+    width: 103px;
+    height: 30px;
   }
   .header__link {
     display: none;
@@ -461,6 +465,7 @@ h1 {
   .menu__item {
     margin-right: 0px;
     margin-bottom: 15px;
+    margin-left: 30px;
   }
   .menu__link {
     font-size: 24px;
@@ -620,7 +625,7 @@ h1 {
 
 .card__link span {
   padding: 0px 30px 0px 0px;
-  background: url("../img/icon/orange_arrow.png") right no-repeat;
+  background: url("../../img/icon/orange_arrow.png") right no-repeat;
 }
 
 @media (max-width: 714px) {
@@ -655,7 +660,7 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: url(../img/Vector.png) 0 0 no-repeat;
+  background: url(../../img/Vector.png) 0 0 no-repeat;
 }
 
 .diplom__caption {
@@ -722,7 +727,7 @@ hr {
 
 .diplom-link span {
   padding: 0 30px 0 0;
-  background: url("../img/icon/white_arrow.png") right no-repeat;
+  background: url("../../img/icon/white_arrow.png") right no-repeat;
 }
 
 @media (max-width: 714px) {
@@ -862,6 +867,10 @@ hr {
   margin-bottom: 116px;
 }
 
+.karriere__link span {
+  padding: 0 30px 0 0;
+}
+
 @media (max-width: 944px) {
   .karriere__row {
     -webkit-box-orient: vertical;
@@ -909,8 +918,18 @@ hr {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.footer__adress + .footer__adress {
-  margin-left: 144px;
+.footer__adress {
+  margin-left: calc(20px + (144 - 20) * ((100vw - 320px) / (1216 - 320)));
+}
+
+@media (max-width: 490px) {
+  .footer__column {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer__adress {
+    margin-bottom: 15px;
+  }
 }
 
 .footer__line {
@@ -922,6 +941,7 @@ hr {
   /* Цвет линии для IE6-7 */
   height: 1px;
   /* Толщина линии */
-  margin: 84px 0 40px;
+  margin-top: calc(30px + (84 - 30) * ((100vw - 320px) / (1216 - 320)));
+  margin-bottom: calc(20px + (40 - 20) * ((100vw - 320px) / (1216 - 320)));
   opacity: 0.2;
 }
