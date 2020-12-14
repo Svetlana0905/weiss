@@ -39,6 +39,7 @@
 								<ul class="submenu">
 									<li><a class="menu__link" href="#">Category</a></li>
 									<li><a class="menu__link" href="#">Author</a></li>
+									<li><a class="menu__link" href="#">Archive</a></li>
 								</ul>
 							</li>
 							<li class="menu__item">
@@ -46,9 +47,53 @@
 							</li>
 						</ul>
 					</nav>
-					<a target="_blank" href="mailto:ask@gmail.com" class="header__link">
-						<span>Kontakt</span>
+					<a href="#" class=" firstOpen header__link">
+						<span class="firstOpen">Kontakt</span>
 					</a>
+					<!-- Popup -->
+					<div class="firstOpen out-popup">
+						<div class="popup-window" style="padding: 0px;margin: 0px 0px;">
+							<!-- <label for="hidden" class="lab-view close">✖</label> -->
+							<div class="right__soc">
+								<img class="right__soc-img" src="/img/rectangle.png" alt="">
+								<h3 class="contakt__title text-bold">
+									Projektanwendung
+								</h3>
+
+								<form action="post" class="preview__form form__feedback" autocomplete="off">
+									<div class="field">
+										<input type="text" name="fullname" id="fullname2" class="inp" placeholder="Name"
+											required="">
+										<label for="fullname2" class="req">Your name</label>
+									</div>
+
+									<div class="field">
+										<input type="tel" name="tel" id="tel2" class="inp" placeholder="+7 999 555 44 66 "
+											required="">
+										<label for="tel2" class="inp req">Phone number</label>
+									</div>
+
+									<div class="field">
+										<input type="email" name="email" id="email2" class="inp" placeholder="email@gmail.com  "
+											required="">
+										<label for="email2" class="inp req">Your email</label>
+									</div>
+
+									<div class="field">
+										<textarea type="text" name="message" id="message" class="inp"
+											placeholder=" Ich möchte...  " required=""></textarea>
+										<label for="message" class="inp req"></label>
+									</div>
+									<div class="notification">
+										* Required fields
+									</div>
+									<button type="submit" name="send" class="btn-preview">Nachricht senden
+										Anwendung</button>
+
+								</form>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -262,6 +307,9 @@
 						<div class="footer__logo">
 							<img class="footer__logo-img" src="./img/icon/logo-footer.png" alt="">
 						</div>
+						<a href="#" class=" firstOpen header__link footer-link">
+							<span class="firstOpen">Kontakt</span>
+						</a>
 					</div>
 					<div class="footer__column">
 						<div class="footer__adress">
