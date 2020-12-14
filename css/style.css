@@ -620,7 +620,7 @@ h1 {
 
 .card__link span {
   padding: 0px 30px 0px 0px;
-  background: url("../../img/icon/orange_arrow.png") right no-repeat;
+  background: url("../img/icon/orange_arrow.png") right no-repeat;
 }
 
 @media (max-width: 714px) {
